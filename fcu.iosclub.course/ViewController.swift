@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func textbutton(_ sender: UIButton) {
         var tstr = sender.titleLabel?.text
         
-        let ale = UIAlertController(title: "這個是", message: nil, preferredStyle: UIAlertController.Style.alert)
+        let ale = UIAlertController(title: "這個是m", message: nil, preferredStyle: UIAlertController.Style.alert)
         ale.addTextField { (UITextField) in
             UITextField.placeholder = "請輸入答案(英文)"
             
